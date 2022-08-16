@@ -14,7 +14,6 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Getter
 public class BusinessPlace {
-    //maybe: locale = "de-DE"
 
     @CsvBindByName(column = "PLC")
     private String plc;
@@ -42,7 +41,5 @@ public class BusinessPlace {
     private String region;
     @CsvBindByName(column = "Letzte Änderung", required = true)
     private String lastChange;
-
-
 
 }

@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.List;
 
 
 @Component
